@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Micro+5&display=swap" rel="stylesheet"><head>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Micro+5&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="local">
+            <p class="text">LOCAL</p>
+            <p id="localcount"> 0 </p>
+            <div class="buttons">
+            <button id="local+1" onclick="localPlus1()">+1</button>
+            <button id="local+2" onclick="localPlus2()">+2</button>
+            <button id="local+3" onclick="localPlus3()">+3</button>
+        </div>
+        </div>
+        <button id="cero" onclick="countToCero()">Restart Game</button>
+
+        <div class="guests">
+            <p class="text">GUESTS</p>
+            <p id="guestcount"> 0 </p>
+            <div class="buttons">
+                <button id="guest+1" onclick="guestPlus1()">+1</button>
+                <button id="guest+2" onclick="guestPlus2()">+2</button>
+                <button id="guest+3" onclick="guestPlus3()">+3</button>
+            </div>
+        </div>
+
+    </div>
+
+<script src="js.js"></script>
+</body>
+</html>

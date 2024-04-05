@@ -1,0 +1,71 @@
+body{
+    background-image: url(multimedia/background1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray ;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.text{
+    font-size: 130%;
+    color: white;
+}
+
+button{
+    color: white;
+    background: red;
+    border-radius: 5px;
+    height: 50%;
+    width: 50%;
+    font-size: 100%;
+    opacity: 1;
+    margin-top: 30%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+} 
+
+.local, .guests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+    font-weight: bold;
+    opacity: 1;
+    padding: 2%;
+}
+
+#guestcount, #localcount{
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    padding: 30%;
+    margin: auto;
+    border-radius: 5px;
+    font-family: "Micro 5";
+    font-size: 400%;
+ }
+
+ #cero{
+    margin: 5%;
+ }
+
+
