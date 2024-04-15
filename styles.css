@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 .container{
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -67,5 +67,19 @@ button{
  #cero{
     margin: 5%;
  }
+
+
+ @media only screen and (max-width: 600px) {
+    .local, .guests{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 120%;
+        font-weight: bold;
+        opacity: 1;
+        padding: 0%;
+    }
+  }
+
 
 
